@@ -1,0 +1,117 @@
+@import url('https://fonts.cdnfonts.com/css/perfect-dos-vga-437');
+
+@media (prefers-color-scheme: light)
+{
+	body
+	{
+		background-color : #eceff4;
+		color : black;
+	}
+	
+	.Header
+	{
+		background-color : #d8dee9
+	}
+	
+	a
+	{
+		color : #359797
+	}
+	
+	#Website_Title
+	{
+		color : #8e5783
+	}
+}
+
+@media (prefers-color-scheme: dark)
+{
+	body
+	{
+		background-color : #3b4252;
+		color : white;
+	}
+	
+	.Header
+	{
+		background : #2e3440;
+	}
+	
+	a
+	{
+		color : #88b3b3
+	}
+	
+	#Website_Title
+	{
+		color : #a78ea2
+	}
+}
+
+body
+{
+	font-family : Linux Libertine O, Liberation Serif, Times New Roman;
+	text-align : justify;
+	margin : 10% 20% 5% 20%;
+}
+
+h1
+{
+	text-align : center;
+	font-size : 3em;
+}
+
+.image
+{
+	text-align : center;
+	height : auto;
+	max-width : 100%;
+	background-color : white;
+}
+
+.source
+{
+	font-size : 0.8em;
+	font-family : Linux libertine Mono 0, Liberation Mono;
+	text-align : right;
+}
+
+#big_margin
+{
+	padding-top : 5%
+}
+
+.Header
+{
+	position : fixed;
+	left : 0;
+	top : 0;
+	width : 100%
+}
+
+#Website_Title
+{
+	font-family : 'Perfect DOS VGA 437 Win', Arial;
+	font-size : 3.5em;
+	padding-left : 5%;
+}
+
+#Website_URLs
+{
+	font-family : Arial;
+	padding-right : 5%;
+	font-size : 1.5em;
+	float : right;
+}
+
+#Sub_Website_URLs
+{
+	font-family : Arial;
+	text-align : center;
+	float : center;
+}
+
+.Actual_Page
+{
+	color : #bf616a;
+}
