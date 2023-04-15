@@ -66,7 +66,7 @@ body
 .Header
 {
 	position : sticky;
-	margin : 0% -33.5% 0% -33.5%;
+	margin : 0% -33.3% 0% -33.3%;
 }
 
  /* Retire les marges quand le ration est inférieur à 1:1. */
@@ -136,6 +136,7 @@ img
 	font-family : Arial;
 	text-align : center;
 	float : center;
+	padding-bottom : 1%
 }
 
 .Actual_Page
