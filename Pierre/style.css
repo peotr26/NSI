@@ -60,12 +60,16 @@ body
 {
 	font-family : Linux Libertine O, Liberation Serif, Times New Roman;
 	text-align : justify;
-	margin : 10% 20% 5% 20%;
+	margin : 7% 20% 5% 20%;
 }
 
-@media (min-width:480px)
+ /* Retire les marges quand le ration est inférieur à 1:1. */
+@media (max-aspect-ratio: 1/1)
 {
-	margin : 10% 3% 5% 3%;
+	body
+	{
+		margin : 40% 3% 5% 3%;
+	}
 }
 
 h1
