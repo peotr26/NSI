@@ -60,7 +60,13 @@ body
 {
 	font-family : Linux Libertine O, Liberation Serif, Times New Roman;
 	text-align : justify;
-	margin : 7% 20% 5% 20%;
+	margin : 0% 20% 5% 20%;
+}
+
+.Header
+{
+	position : sticky;
+	margin : 0% -33.5% 0% -33.5%;
 }
 
  /* Retire les marges quand le ration est inférieur à 1:1. */
@@ -68,7 +74,13 @@ body
 {
 	body
 	{
-		margin : 40% 3% 5% 3%;
+		margin : 0% 3% 5% 3%;
+	}
+	
+	.Header
+	{
+		position : sticky;
+		margin : 0% -3.4% 0% -3.4%;
 	}
 }
 
@@ -102,14 +114,6 @@ img
 #big_margin
 {
 	padding-top : 5%
-}
-
-.Header
-{
-	position : fixed;
-	left : 0;
-	top : 0;
-	width : 100%
 }
 
 #Website_Title
