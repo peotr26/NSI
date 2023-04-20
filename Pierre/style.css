@@ -1,6 +1,9 @@
 /* Importation des polices*/
-@import url('https://fonts.cdnfonts.com/css/perfect-dos-vga-437');
-@import url('https://fonts.cdnfonts.com/css/commodore-64-pixelized');
+@font-face
+{
+	font-family: 'Commodore 64';
+	src: url('https://peotr26.github.io/NSI/Commodore-64-v6.3.TTF');
+}
 
 /* Thème clair */
 @media (prefers-color-scheme: light)
@@ -129,7 +132,7 @@ img
 
 #Website_Title
 {
-	font-family : 'Commodore 64 Pixelized', Arial;
+	font-family : 'Commodore 64', Arial;
 	font-size : 3.5em;
 	padding-left : 5%;
 	padding-top : 1%;
