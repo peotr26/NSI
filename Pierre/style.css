@@ -1,8 +1,8 @@
 /* Importation des polices*/
 @font-face
 {
-	font-family: 'Commodore 64';
-	src: url('https://peotr26.github.io/NSI/Commodore-64-v6.3.TTF');
+	font-family: Amiga4Ever;
+	src: url('https://peotr26.github.io/NSI/amiga4ever.ttf');
 }
 
 /* Thème clair */
@@ -132,7 +132,7 @@ img
 
 #Website_Title
 {
-	font-family : 'Commodore 64', Arial;
+	font-family : Amiga4Ever, Arial;
 	font-size : 3.5em;
 	padding-left : 5%;
 	padding-top : 1%;
@@ -140,11 +140,11 @@ img
 
 #Website_URLs
 {
-	font-family : Arial;
+	font-family : Amiga4Ever, Arial;
 	padding-right : 5%;
 	padding-top : 1%;
 	vertical-align : baseline;
-	font-size : 1.5em;
+	font-size : 1.2em;
 	text-align : end;
 }
 
@@ -156,12 +156,18 @@ img
 
 #Sub_Website_URLs
 {
-	font-family : Arial;
+	font-family : Amiga4Ever, Arial;
 	text-align : center;
-	padding-bottom : 1%
+	padding-bottom : 1%;
+	font-size : 0.8em;
 }
 
 .Actual_Page
 {
 	color : #bf616a;
+}
+
+.Headers
+{
+	font-family: Amiga4Ever
 }
