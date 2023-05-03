@@ -1,0 +1,174 @@
+/* Importation des polices*/
+@font-face
+{
+	font-family: Amiga4Ever;
+	src: url('https://peotr26.github.io/NSI/amiga4ever.ttf');
+}
+
+/* Thème clair */
+@media (prefers-color-scheme: light)
+{
+	body
+	{
+		background-color : #eceff4;
+		color : black;
+	}
+	
+	.Headers
+	{
+		background-color : #d8dee9
+	}
+	
+	a
+	{
+		color : #359797
+	}
+	
+	#Website_Title
+	{
+		color : #8e5783
+	}
+}
+
+/* Thème sombre */
+@media (prefers-color-scheme: dark)
+{
+	body
+	{
+		background-color : #3b4252;
+		color : white;
+	}
+	
+	.Headers
+	{
+		background : #2e3440;
+	}
+	
+	a
+	{
+		color : #88b3b3
+	}
+	
+	#Website_Title
+	{
+		color : #a78ea2
+	}
+	
+	.svg_p
+	{
+		background-color : white;
+	}
+}
+
+body
+{
+	font-family : Linux Libertine O, Liberation Serif, Times New Roman;
+	text-align : justify;
+	margin : 0% 20% 5% 20%;
+}
+
+.Headers
+{
+	margin : 0% -33.3% 0% -33.3%;
+}
+
+ /* Retire les marges quand le ration est inférieur à 1:1. */
+@media (max-aspect-ratio: 1/1)
+{
+	body
+	{
+		margin : 0% 3% 5% 3%;
+	}
+	
+	.Headers
+	{
+		margin : 0% -3.4% 0% -3.4%;
+	}
+}
+
+h1
+{
+	text-align : center;
+	font-size : 3em;
+}
+
+img
+{
+	max-width : 100%;
+	height: auto;
+	width: auto;
+	
+}
+
+/* Centrer les paragraphes contenant une image. */
+.image
+{
+	text-align : center;
+}
+
+.source
+{
+	font-size : 0.8em;
+	font-family : Linux libertine Mono 0, Liberation Mono;
+	text-align : right;
+}
+
+#big_margin
+{
+	padding-top : 5%
+}
+
+.Headers
+{
+	position : sticky;
+	top : 0px
+}
+
+#Top_Header
+{
+	display: flex;
+	align-items : center;
+}
+
+#Website_Title
+{
+	font-family : Amiga4Ever, Arial;
+	font-size : 3.5em;
+	padding-left : 5%;
+	padding-top : 1%;
+	padding-bottom : 1%;
+}
+
+#Website_URLs
+{
+	font-family : Amiga4Ever, Arial;
+	padding-right : 5%;
+	padding-top : 1%;
+	vertical-align : baseline;
+	font-size : 1.2em;
+	text-align : end;
+}
+
+#Website_Title,
+#Website_URLs
+{
+  flex: 1;
+}
+
+#Sub_Website_URLs
+{
+	font-family : Amiga4Ever, Arial;
+	text-align : center;
+	padding-bottom : 1%;
+	font-size : 0.8em;
+}
+
+.Actual_Page
+{
+	color : #bf616a;
+}
+
+.Headers
+{
+	font-family: Amiga4Ever
+}
