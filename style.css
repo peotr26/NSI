@@ -181,6 +181,7 @@ img
 	
 	#Top_Header
 	{
+		display : inline;
 		align-items : left;
 	}
 	
