@@ -182,6 +182,7 @@ img
 	#Top_Header
 	{
 		display : inline;
+		align-items : left;
 	}
 	
 	#Website_URLs
