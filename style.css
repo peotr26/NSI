@@ -175,12 +175,13 @@ img
 	
 	#Website_Title
 	{
+		/* Retire le nom du site sur ces appareils */
 		font-size : 0em;
 	}
 	
 	#Top_Header
 	{
-		display : grid;
+		display : inline;
 	}
 	
 	#Website_URLs
