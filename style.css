@@ -87,6 +87,14 @@ img
 	
 }
 
+.author
+{
+	font-family : Linux libertine Mono O, Liberation Mono;
+	font-size : 0.8em;
+	font-weight : bold;
+	margin-top : -1%;
+}
+
 /* Centrer les paragraphes contenant une image. */
 .image
 {
