@@ -67,6 +67,11 @@ body
 	margin : 0% 20% 5% 20%;
 }
 
+h2
+{
+	padding-top : 3%;
+}
+
 .Headers
 {
 	/* Faire en sorte que qu'il n'y ai pas de marges pour la bannière.*/
