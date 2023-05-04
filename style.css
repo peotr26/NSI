@@ -69,6 +69,7 @@ body
 
 .Headers
 {
+	/* Faire en sorte que qu'il n'y ai pas de marges pour la bannière.*/
 	margin : 0% -33.3% 0% -33.3%;
 }
 
@@ -170,6 +171,7 @@ img
 	
 	.Headers
 	{
+		/* Faire en sorte que qu'il n'y ai pas de marges pour la bannière.*/
 		margin : 0% -3.4% 0% -3.4%;
 	}
 	
