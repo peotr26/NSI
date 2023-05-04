@@ -87,12 +87,34 @@ img
 	
 }
 
+.URL_list
+{
+	font-size : 1.8em;
+}
+
 .author
 {
 	font-family : Linux libertine Mono O, Liberation Mono;
-	font-size : 0.8em;
+	font-size : 1em;
 	font-weight : bold;
 	margin-top : -1%;
+}
+
+.post{
+	padding-top : 2.5%;
+	padding-bottom : 2.5%;
+	text-align : center;
+}
+
+.summary
+{
+	padding-left : 10%;
+	padding-right : 10%;
+}
+
+a
+{
+	text-decoration : none;
 }
 
 /* Centrer les paragraphes contenant une image. */
