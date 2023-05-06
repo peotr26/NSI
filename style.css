@@ -60,6 +60,63 @@
 	}
 }
 
+/* Mise en page de l'entête */
+
+.Headers
+{
+	font-family: Amiga4Ever, Arial;
+	position : sticky;
+	top : 0px;
+	/* Faire en sorte que qu'il n'y ai pas de marges pour la bannière*/
+	margin : 0% -33.3% 0% -33.3%;
+}
+
+#Top_Header
+{
+	display : flex;
+	align-items : center;
+}
+
+#Website_Title
+{
+	font-family : Amiga4Ever, Arial;
+	font-size : 2.8em;
+	padding-left : 5%;
+	padding-top : 1%;
+	padding-bottom : 1%;
+}
+
+#Website_URLs
+{
+	font-family : Amiga4Ever, Arial;
+	padding-right : 5%;
+	padding-top : 1%;
+	padding-bottom : 1%;
+	vertical-align : baseline;
+	font-size : 1.2em;
+	text-align : end;
+}
+
+#Website_Title,
+#Website_URLs
+{
+  flex : 1;
+}
+
+#Sub_Website_URLs
+{
+	text-align : center;
+	padding-bottom : 1%;
+	font-size : 0.8em;
+}
+
+/* Couleur de l'hyperlien correspondant avec la page actuelle */
+
+.Actual_Page
+{
+	color : #bf616a;
+}
+
 body
 {
 	font-family : Linux Libertine O, Liberation Serif, Times New Roman;
@@ -141,63 +198,6 @@ a
 #big_margin
 {
 	padding-top : 5%
-}
-
-/* Mise en page de l'entête */
-
-.Headers
-{
-	font-family: Amiga4Ever, Arial;
-	position : sticky;
-	top : 0px;
-	/* Faire en sorte que qu'il n'y ai pas de marges pour la bannière*/
-	margin : 0% -33.3% 0% -33.3%;
-}
-
-#Top_Header
-{
-	display : flex;
-	align-items : center;
-}
-
-#Website_Title
-{
-	font-family : Amiga4Ever, Arial;
-	font-size : 2.8em;
-	padding-left : 5%;
-	padding-top : 1%;
-	padding-bottom : 1%;
-}
-
-#Website_URLs
-{
-	font-family : Amiga4Ever, Arial;
-	padding-right : 5%;
-	padding-top : 1%;
-	padding-bottom : 1%;
-	vertical-align : baseline;
-	font-size : 1.2em;
-	text-align : end;
-}
-
-#Website_Title,
-#Website_URLs
-{
-  flex : 1;
-}
-
-#Sub_Website_URLs
-{
-	text-align : center;
-	padding-bottom : 1%;
-	font-size : 0.8em;
-}
-
-/* Couleur de l'hyperlien correspondant avec la page actuelle */
-
-.Actual_Page
-{
-	color : #bf616a;
 }
 
 /* Retire les marges quand le ration est inférieur à 1:1 */
