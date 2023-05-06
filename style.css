@@ -149,7 +149,7 @@ a
 {
 	font-family: Amiga4Ever, Arial;
 	position : sticky;
-	top : 0px
+	top : 0px;
 	/* Faire en sorte que qu'il n'y ai pas de marges pour la bannière*/
 	margin : 0% -33.3% 0% -33.3%;
 }
