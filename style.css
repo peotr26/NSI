@@ -1,4 +1,4 @@
-/* Importation des polices*/
+/* Importation des polices */
 @font-face
 {
 	font-family: Amiga4Ever;
@@ -72,17 +72,13 @@ h2
 	padding-top : 3%;
 }
 
-.Headers
-{
-	/* Faire en sorte que qu'il n'y ai pas de marges pour la bannière.*/
-	margin : 0% -33.3% 0% -33.3%;
-}
-
 h1
 {
 	text-align : center;
 	font-size : 3em;
 }
+
+/* Mise en page des images */
 
 img
 {
@@ -91,6 +87,8 @@ img
 	width: auto;
 	
 }
+
+/* Mise en page de la page d’accueil */
 
 .URL_list
 {
@@ -105,7 +103,8 @@ img
 	margin-top : -1%;
 }
 
-.post{
+.post
+{
 	padding-top : 2%;
 	padding-bottom : 2%;
 	text-align : center;
@@ -117,16 +116,20 @@ img
 	padding-right : 10%;
 }
 
+/* Enlève les décorations des hyperliens */
+
 a
 {
 	text-decoration : none;
 }
 
-/* Centrer les paragraphes contenant une image. */
+/* Centrer les paragraphes contenant une image */
 .image
 {
 	text-align : center;
 }
+
+/* Mise en page de la liste des sources */
 
 .source
 {
@@ -140,10 +143,15 @@ a
 	padding-top : 5%
 }
 
+/* Mise en page de l'entête */
+
 .Headers
 {
+	font-family: Amiga4Ever, Arial;
 	position : sticky;
 	top : 0px
+	/* Faire en sorte que qu'il n'y ai pas de marges pour la bannière*/
+	margin : 0% -33.3% 0% -33.3%;
 }
 
 #Top_Header
@@ -180,23 +188,19 @@ a
 
 #Sub_Website_URLs
 {
-	font-family : Amiga4Ever, Arial;
 	text-align : center;
 	padding-bottom : 1%;
 	font-size : 0.8em;
 }
+
+/* Couleur de l'hyperlien correspondant avec la page actuelle */
 
 .Actual_Page
 {
 	color : #bf616a;
 }
 
-.Headers
-{
-	font-family: Amiga4Ever
-}
-
-/* Retire les marges quand le ration est inférieur à 1:1. */
+/* Retire les marges quand le ration est inférieur à 1:1 */
 @media (max-aspect-ratio: 1/1)
 {
 	body
@@ -206,7 +210,7 @@ a
 	
 	.Headers
 	{
-		/* Faire en sorte que qu'il n'y ai pas de marges pour la bannière.*/
+		/* Faire en sorte que qu'il n'y ai pas de marges pour la bannière */
 		margin : 0% -3.4% 0% -3.4%;
 	}
 	
@@ -228,6 +232,8 @@ a
 		padding-bottom : 2%;
 	}
 }
+
+/* Mise en page de la bannière sur la licence */
 
 .licence
 {
