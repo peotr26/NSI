@@ -16,17 +16,18 @@
 	
 	.Headers
 	{
-		background-color : #d8dee9
+		background-color : #d8dee9;
 	}
 	
-	a
+	a,
+	.three_dot
 	{
-		color : #359797
+		color : #359797;
 	}
 	
 	#Website_Title
 	{
-		color : #8e5783
+		color : #8e5783;
 	}
 }
 
@@ -44,7 +45,8 @@
 		background : #2e3440;
 	}
 	
-	a
+	a,
+	.three_dot
 	{
 		color : #88b3b3
 	}
@@ -171,6 +173,11 @@ img
 {
 	padding-left : 10%;
 	padding-right : 10%;
+}
+
+.three_dot
+{
+	font-weight : bold;
 }
 
 /* Enlève les décorations des hyperliens */
